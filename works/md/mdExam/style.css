@@ -1,0 +1,78 @@
+div {
+    background-color: white;
+    width: 1000px;
+    height: auto;
+    margin: 10px auto;
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: black;
+    font-family: Tahoma, sans-serif;
+}
+
+table, td {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px 115px 10px 115px;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h1, a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align: center;
+    text-shadow: 4px 4px gainsboro;
+}
+
+a.big-text {
+    font-size: 30px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: wavy;
+    animation: myAnimation 0.5s;
+}
+
+@keyframes myAnimation {
+    0% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+img:hover {
+    opacity: 0.8;
+    transform: scale(0.98);
+    transition: opacity 0.08s ease, transform 0.3s ease;
+}
+
+a.text-familiar {
+    font-family: monospace;
+    font-size: 20px;
+}

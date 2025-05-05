@@ -1,0 +1,11 @@
+.expandable {
+  height: 0;
+  overflow: hidden;
+  background: black ;
+  color: white;
+  transition: 200ms height ease-in-out;
+}
+
+.expandable.open {
+  height: auto;
+}
